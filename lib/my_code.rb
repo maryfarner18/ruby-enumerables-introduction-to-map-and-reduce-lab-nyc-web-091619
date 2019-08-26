@@ -53,7 +53,7 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-   sum = 0
+  sum = 0
   i = starting_point 
   while i < source_array.length do
     sum += source_array[i]
